@@ -1,34 +1,23 @@
+# Chika Nwokoro Academic Website
 
-# Chika Nwokoro
+This folder contains the source files for the academic portfolio website.
 
-**Biochemistry | Computational Glycobiology | Bioinformatics**
+## Files
+- `index.html`: website content and structure
+- `style.css`: website styling
+- `documents/Chika-Nwokoro-Academic-CV-2026.pdf`: academic CV linked from the website
 
-I am a Biochemistry graduate with a First Class degree, interested in understanding the molecular and structural basis of biological recognition through computational and quantitative approaches.
+## Publish with GitHub Pages
+1. Create a public repository named exactly `YOUR-USERNAME.github.io`.
+2. Upload the contents of this folder to the repository root. Do not upload the outer ZIP file itself.
+3. In the repository, open **Settings → Pages**.
+4. Under **Build and deployment**, choose **Deploy from a branch**.
+5. Select branch `main` and folder `/ (root)`, then save.
+6. After GitHub Pages finishes publishing, visit `https://YOUR-USERNAME.github.io`.
 
-My research interests include:
-
-- Glycobiology and glycomics
-- Computational biology and bioinformatics
-- Glycan–protein interactions
-- Molecular modelling and chemical biology
-
-## Research Projects
-
-### GlycoGraph-ML
-An ongoing computational research project exploring graph-based representations and quantitative structural analysis of N-glycans.
-
-### Published Research
-- Computational modelling and enzyme kinetics of beta-lactamase inhibition.
-- Network pharmacology and ADMET analysis of phytochemicals from *Allium cepa*.
-
-## Education
-
-**BSc Biochemistry**  
-Caleb University  
-First Class Honours | CGPA: 4.94/5.00
-
-## Technical Interests
-
- Bioinformatics | Network Analysis | Molecular Modelling | Data Analysis
-
-
+## Before publishing
+- Check that the CV is the version you want publicly accessible.
+- Confirm publication statuses, author order, journal names, years and DOI links before adding them.
+- Check publisher permissions before uploading full-text papers to a public repository.
+- Replace any outdated experience details in the CV and website if needed.
+- The page currently uses the contact email and LinkedIn URL shown in the supplied CV.
