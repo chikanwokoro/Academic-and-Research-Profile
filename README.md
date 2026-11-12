@@ -7,7 +7,7 @@ A responsive, single-page academic portfolio for GitHub Pages. The original inte
 - `style.css` — visual design and responsive layout
 - `script.js` — ID badge flip, intro transition and typewriter animation
 - `chika-portrait.jpg` — portrait used only on the introductory ID badge
-- `documents/Chika-Nwokoro-Academic-CV-2026.pdf` — academic CV
+- `Chika-Nwokoro-Academic-CV-2026.pdf` — academic CV
 
 ## Publish on GitHub Pages
 Upload the contents of this folder to the root of the `chikanwokoro.github.io` repository. In Settings → Pages, select the `main` branch and `/ (root)` if using branch deployment.
