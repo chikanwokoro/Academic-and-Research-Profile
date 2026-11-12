@@ -3,253 +3,244 @@
 <head>
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <meta name="description" content="Chika Nwokoro — Biochemistry graduate exploring glycobiology, computational biology and quantitative approaches to biological systems.">
-  <meta name="theme-color" content="#21172d">
+  <meta name="description" content="Academic portfolio of Chika Nwokoro, Biochemistry graduate interested in computational glycobiology, glycomics and computational approaches to biological systems.">
   <title>Chika Nwokoro | Academic Portfolio</title>
-  <link rel="preconnect" href="https://fonts.googleapis.com">
-  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-  <link href="https://fonts.googleapis.com/css2?family=DM+Sans:wght@400;500;600;700&family=Manrope:wght@400;500;600;700;800&family=Playfair+Display:ital,wght@0,500;0,600;0,700;1,500&display=swap" rel="stylesheet">
   <link rel="stylesheet" href="style.css">
 </head>
 <body>
-  <div class="intro-screen" id="intro">
-    <div class="intro-words" aria-hidden="true">
-      <span class="word word-a">BIOCHEMIST</span>
-      <span class="word word-b">RESEARCHER</span>
-      <span class="word word-c">CURIOUS MIND</span>
-      <span class="word word-d">SCIENTIST</span>
-    </div>
-    <div class="lanyard" aria-label="Interactive identification badge. Select to flip it.">
-      <div class="lanyard-strap"></div>
-      <button class="id-card" id="idCard" type="button" aria-label="Flip identification badge">
-        <span class="card-face card-front">
-          <span class="card-hole"></span>
-          <span class="badge-photo badge-photo-small">CN</span>
-          <span class="badge-name">CHIKA<br>NWOKORO</span>
-          <span class="badge-role">BIOCHEMISTRY · RESEARCH</span>
-          <span class="badge-signature">Chika N.</span>
-          <span class="barcode" aria-hidden="true"></span>
-          <span class="badge-hint">TAP TO FLIP ↻</span>
-        </span>
-        <span class="card-face card-back">
-          <span class="back-kicker">A LITTLE ABOUT MY WORK</span>
-          <strong>What I explore</strong>
-          <span class="back-item">01 <b>Biochemistry</b></span>
-          <span class="back-item">02 <b>Glycobiology</b></span>
-          <span class="back-item">03 <b>Computational analysis</b></span>
-          <span class="back-foot">Curiosity, evidence and discovery.</span>
-        </span>
-      </button>
-    </div>
-    <p class="intro-caption"><span id="typedText">Exploring biological questions through biochemistry.</span><i></i></p>
-    <button class="enter-button" id="enterSite" type="button">Explore portfolio <span>↘</span></button>
-    <span class="intro-note">A PERSONAL ACADEMIC PORTFOLIO · 2026</span>
-  </div>
-
-  <header class="nav-wrap">
-    <a class="brand" href="#home">CHIKA<span>.</span></a>
-    <nav class="main-nav" aria-label="Main navigation">
-      <a href="#research">Research</a>
-      <a href="#work">Work</a>
+  <header class="site-header">
+    <a class="brand" href="#home">CN<span>.</span></a>
+    <nav aria-label="Main navigation">
       <a href="#about">About</a>
-      <a class="nav-contact" href="#contact">Contact ↗</a>
+      <a href="#research">Research</a>
+      <a href="#publications">Publications</a>
+      <a href="#experience">Experience</a>
+      <a href="#education">Education</a>
+      <a href="#contact">Contact</a>
     </nav>
   </header>
 
   <main>
     <section class="hero" id="home">
-      <div class="hero-visual">
-        <!-- Add your professional portrait as images/chika-portrait.jpg when ready. -->
-        <div class="portrait-frame portrait-placeholder">
-          <div class="portrait-monogram">CN</div>
-          <span>PROFESSIONAL PORTRAIT</span>
-          <small>Photo placeholder</small>
-        </div>
-        <div class="photo-note">
-          <span class="note-spark">✳</span>
-          <span>Biochemistry<br>to bigger questions.</span>
-        </div>
-        <div class="signature">Chika N.</div>
-        <div class="hero-stamp">FIRST CLASS<br>4.94 / 5.00</div>
+      <div class="hero-portrait"><img src="images/chika-portrait.jpg" alt="Professional portrait"></div>
+      <p class="eyebrow">ACADEMIC PORTFOLIO</p>
+      <h1>Chika Nwokoro</h1>
+      <p class="hero-subtitle">Biochemistry · Computational Biology · Glycobiology</p>
+      <p class="hero-copy">
+        I am a Biochemistry graduate interested in understanding biological systems
+        through biochemical, structural and computational approaches. My developing
+        research interests include glycobiology, glycomics, molecular interactions
+        and data-driven analysis of biological structures.
+      </p>
+      <div class="hero-actions">
+        <a class="button primary" href="documents/Chika-Nwokoro-Academic-CV-2026.pdf" target="_blank" rel="noopener">View academic CV</a>
+        <a class="button secondary" href="#research">Explore research</a>
       </div>
-      <div class="hero-copy">
-        <p class="eyebrow">BIOCHEMISTRY · RESEARCH · DISCOVERY</p>
-        <p class="hello">Hello, I’m</p>
-        <h1>Chika<br><em>Nwokoro.</em></h1>
-        <div class="hero-rule"></div>
-        <p class="hero-lede">A Biochemistry graduate interested in how molecular structure shapes biological function, and how computational approaches can help us investigate those relationships.</p>
-        <p class="hero-focus">Currently exploring <span id="focusText">computational glycobiology</span><b class="cursor">|</b></p>
-        <div class="hero-buttons">
-          <a class="pill-button dark" href="#research">Explore my research <span>↘</span></a>
-          <a class="text-link" href="documents/Chika-Nwokoro-Academic-CV-2026.pdf" target="_blank" rel="noopener">View academic CV ↗</a>
-        </div>
-        <div class="hero-location">LAGOS, NIGERIA <span>·</span> OPEN TO RESEARCH OPPORTUNITIES</div>
+      <div class="hero-meta">
+        <span>Lagos, Nigeria</span>
+        <span>·</span>
+        <a href="mailto:chikanwokoro2@gmail.com">chikanwokoro2@gmail.com</a>
+        <span>·</span>
+        <a href="https://www.linkedin.com/in/chika-nwokoro" target="_blank" rel="noopener">LinkedIn</a>
       </div>
     </section>
 
-    <div class="ticker" aria-label="Research interests">
-      <div class="ticker-track">
-        <span> BIOCHEMISTRY <b>✳</b> GLYCOBIOLOGY <b>✳</b> COMPUTATIONAL BIOLOGY <b>✳</b> MOLECULAR INTERACTIONS <b>✳</b> QUANTITATIVE ANALYSIS <b>✳</b> </span>
-        <span aria-hidden="true"> BIOCHEMISTRY <b>✳</b> GLYCOBIOLOGY <b>✳</b> COMPUTATIONAL BIOLOGY <b>✳</b> MOLECULAR INTERACTIONS <b>✳</b> QUANTITATIVE ANALYSIS <b>✳</b> </span>
+    <section class="section" id="about">
+      <div class="section-heading">
+        <p class="eyebrow">01 / ABOUT</p>
+        <h2>Research at the intersection of biochemistry and computation.</h2>
       </div>
-    </div>
+      <div class="two-column">
+        <p>
+          I graduated with a First Class BSc in Biochemistry from Caleb University
+          (CGPA 4.94/5.00). My academic and practical experience spans clinical
+          diagnostics, natural-product research, biochemical analysis and data
+          analysis. I am increasingly focused on computational approaches for
+          studying molecular structure and biological recognition.
+        </p>
+        <div class="interest-list">
+          <span>Glycobiology and glycomics</span>
+          <span>Computational biology and bioinformatics</span>
+          <span>Glycan–protein interactions</span>
+          <span>Molecular modelling and chemical biology</span>
+          <span>Quantitative analysis of biological systems</span>
+        </div>
+      </div>
+    </section>
 
-    <section class="section research-section" id="research">
-      <div class="section-top">
-        <div><p class="eyebrow">01 / CURRENT RESEARCH</p><h2>Questions worth<br><em>exploring.</em></h2></div>
-        <p class="section-aside">My research interests sit at the meeting point of biochemical understanding, molecular structure and computational investigation.</p>
+    <section class="section shaded" id="research">
+      <div class="section-heading">
+        <p class="eyebrow">02 / RESEARCH</p>
+        <h2>Selected research work</h2>
       </div>
-      <article class="feature-project">
-        <div class="project-visual">
-          <div class="glycan-art">
-            <span class="art-label">ILLUSTRATIVE GLYCAN STRUCTURE</span>
-            <svg viewBox="0 0 440 330" role="img" aria-label="Illustrative branched glycan-like molecular structure">
-              <g class="bonds" fill="none" stroke="#f5dce8" stroke-width="3" stroke-linecap="round">
-                <path d="M220 260 L220 205 L150 160 L90 110"/>
-                <path d="M220 205 L290 160 L350 110"/>
-                <path d="M150 160 L150 95 L195 55"/>
-                <path d="M290 160 L290 95 L245 55"/>
-                <path d="M90 110 L55 65"/>
-                <path d="M350 110 L385 65"/>
-              </g>
-              <g class="sugars">
-                <circle cx="220" cy="260" r="17"/><rect x="132" y="142" width="36" height="36" rx="10"/>
-                <circle cx="90" cy="110" r="15"/><circle cx="290" cy="160" r="17"/>
-                <rect x="332" y="92" width="36" height="36" rx="10"/><circle cx="195" cy="55" r="15"/>
-                <rect x="227" y="37" width="36" height="36" rx="10"/><circle cx="55" cy="65" r="13"/>
-                <circle cx="385" cy="65" r="13"/>
-              </g>
-              <g class="sugar-centres" fill="#2a1d35" font-size="11" font-family="DM Sans, sans-serif" font-weight="700" text-anchor="middle">
-                <text x="220" y="264">S</text><text x="150" y="164">S</text><text x="90" y="114">S</text>
-                <text x="290" y="164">S</text><text x="350" y="114">S</text><text x="195" y="59">S</text>
-                <text x="245" y="59">S</text><text x="55" y="69">S</text><text x="385" y="69">S</text>
-              </g>
-            </svg>
-            <span class="art-caption">Structure · variation · recognition</span>
-          </div>
+      <article class="research-card">
+        <div class="card-topline"><span class="tag">ONGOING PROJECT</span><span class="card-index">01</span></div>
+        <h3>GlycoGraph-ML</h3>
+        <p class="card-lede">Graph-based computational analysis of N-glycan structures.</p>
+        <p>
+          An ongoing project exploring graph representations and quantitative
+          structural characterisation of N-glycans. The current exploratory analysis
+          considers graph properties such as nodes, edges, depth, branching and
+          terminal residues.
+        </p>
+        <div class="metrics">
+          <div><strong>500</strong><span>unique N-glycans examined</span></div>
+          <div><strong>485</strong><span>successfully parsed</span></div>
+          <div><strong>97%</strong><span>parsing success</span></div>
         </div>
-        <div class="project-copy">
-          <div class="project-meta"><span class="tag">ONGOING INDEPENDENT PROJECT</span><span>01</span></div>
-          <h3>Computational Glycan<br><em>Structural Analysis</em></h3>
-          <p class="project-summary">An ongoing computational research project exploring glycan structural diversity through quantitative characterisation and data-driven analysis. The work brings biochemical understanding together with mathematical and computational approaches to investigate structural organisation, identify patterns and examine the complexity of carbohydrate structures.</p>
-          <p class="project-direction"><b>Research direction</b><br>Computational glycobiology · Structural characterisation · Quantitative analysis · Biological recognition</p>
-          <div class="project-stats">
-            <div><strong>500</strong><span>structures examined</span></div>
-            <div><strong>100%</strong><span>reported parsing success</span></div>
-          </div>
-          <p class="quiet-note">Exploratory analysis is ongoing; the project scope and analytical direction continue to develop.</p>
-        </div>
+        <p class="status-note">Project documentation and additional analysis are in development.</p>
       </article>
-    </section>
 
-    <section class="section work-section" id="work">
-      <div class="section-top">
-        <div><p class="eyebrow">02 / SELECTED WORK</p><h2>Research, learning<br>& <em>application.</em></h2></div>
-        <p class="section-aside">A selection of research and academic work reflecting my interests in biochemical systems and computational investigation.</p>
-      </div>
-      <div class="work-grid">
-        <article class="work-card">
-          <div class="work-art art-one"><span>01</span><div class="molecule-lines">⌬</div><small>DOCKING × KINETICS</small></div>
-          <div class="work-card-info"><span class="work-category">COMPUTATIONAL BIOCHEMISTRY</span><h3>Bridging Static Docking and Dynamic Enzyme Kinetics</h3><p>A tensor-based hybrid modelling approach to predicting drug–enzyme interactions.</p></div>
+      <div class="research-grid">
+        <article class="research-card compact">
+          <div class="card-topline"><span class="tag">PUBLISHED WORK</span><span class="card-index">02</span></div>
+          <h3>Computational modelling of β-lactamase interactions</h3>
+          <p>
+            Research involving molecular docking and enzyme-kinetics modelling to
+            investigate drug–enzyme interactions. The project is documented through
+            its published paper; original computational files are not currently
+            included in this portfolio.
+          </p>
         </article>
-        <article class="work-card">
-          <div class="work-art art-two"><span>02</span><div class="molecule-lines">✳</div><small>NETWORK PHARMACOLOGY</small></div>
-          <div class="work-card-info"><span class="work-category">COMPUTATIONAL PHYTOCHEMISTRY</span><h3><em>Allium cepa</em> and Diabetes</h3><p>In silico network pharmacology and computational modelling of bioactive compounds and downstream protein effectors.</p></div>
+        <article class="research-card compact">
+          <div class="card-topline"><span class="tag">PUBLISHED WORK</span><span class="card-index">03</span></div>
+          <h3><em>Allium cepa</em> network pharmacology</h3>
+          <p>
+            Research on bioactive compounds from <em>Allium cepa</em> and downstream
+            protein effectors in diabetes. My contribution included ADMET analysis
+            of seven phytochemicals.
+          </p>
         </article>
-        <article class="work-card">
-          <div class="work-art art-three"><span>03</span><div class="molecule-lines">◈</div><small>GREEN NANOTECHNOLOGY</small></div>
-          <div class="work-card-info"><span class="work-category">REVIEW</span><h3>Algal Synthesis of Metal-Based Nanoparticles</h3><p>A review examining applications in corrosion protection and adsorption.</p></div>
-        </article>
-      </div>
-      <div class="seminars">
-        <div class="seminar-heading"><p class="eyebrow">ACADEMIC PRESENTATIONS</p><h3>Seminars & scholarly communication</h3></div>
-        <div class="seminar-row"><span>2025 · SCIMA Seminar</span><p>The Ste2 Gene in GPCR as Ligand-Binding Receptor for Pheromone in <em>S. cerevisiae</em> Using Quantum Effects</p></div>
-        <div class="seminar-row"><span>2024 · Caleb University</span><p>Deciphering the Function of Heterodimeric and Multimeric Enzymes Using HIV-1 Reverse Transcriptase</p></div>
       </div>
     </section>
 
-    <section class="roles-section">
-      <div class="roles-inner">
-        <p class="eyebrow light">03 / AREAS OF INTEREST</p>
-        <h2>Where I’m<br><em>building depth.</em></h2>
-        <div class="role-row"><span class="role-icon">✳</span><h3>Biochemistry</h3><p>Understanding molecular processes through biochemical principles and experimental evidence.</p></div>
-        <div class="role-row"><span class="role-icon">⌘</span><h3>Glycobiology</h3><p>Exploring the structural and functional significance of glycans in biological systems.</p></div>
-        <div class="role-row"><span class="role-icon">⌁</span><h3>Computational analysis</h3><p>Developing my use of computational and quantitative approaches to investigate biological questions.</p></div>
-        <div class="role-row"><span class="role-icon">✎</span><h3>Scientific research</h3><p>Research synthesis, scientific communication and interdisciplinary learning.</p></div>
+    <section class="section" id="publications">
+      <div class="section-heading">
+        <p class="eyebrow">03 / PUBLICATIONS</p>
+        <h2>Publications and manuscripts</h2>
+        <p class="section-intro">
+          The entries below reflect the titles and status labels in my current CV.
+          Full citation details and publication links can be added when verified.
+        </p>
+      </div>
+      <h3 class="subsection-title">Selected publications</h3>
+      <ol class="publication-list">
+        <li>
+          <span class="pub-status">Research publication</span>
+          <h3>Bridging Static Docking and Dynamic Enzyme Kinetics: A Tensor-Based Hybrid Model for Predicting Drug–Enzyme Interactions</h3>
+        </li>
+        <li>
+          <span class="pub-status">Research publication</span>
+          <h3>In Silico Network Pharmacology and Computational Modelling of Bioactive Compounds From <em>Allium cepa</em> Targeting Downstream Protein Effectors in Diabetes</h3>
+        </li>
+        <li>
+          <span class="pub-status">Review</span>
+          <h3>Algal Synthesis of Metal-Based Nanoparticles for Corrosion Protection and Adsorption: A Review</h3>
+        </li>
+      </ol>
+      <h3 class="subsection-title">Seminar presentations</h3>
+      <ol class="publication-list">
+        <li>
+          <span class="pub-status">SCIMA Seminar · 2025</span>
+          <h3>The Ste2 Gene in GPCR as Ligand-Binding Receptor for Pheromone in <em>S. cerevisiae</em> Using Quantum Effects</h3>
+        </li>
+        <li>
+          <span class="pub-status">Caleb University Seminar · 2024</span>
+          <h3>Deciphering the Function of Heterodimeric and Multimeric Enzymes Using HIV-1 Reverse Transcriptase</h3>
+        </li>
+      </ol>
+      <p class="small-note">
+        Full bibliographic details, author order, journal or venue, year and DOI can be added
+        where applicable once verified.
+      </p>
+    </section>
+
+    <section class="section shaded" id="experience">
+      <div class="section-heading">
+        <p class="eyebrow">04 / EXPERIENCE</p>
+        <h2>Research, laboratory and professional experience</h2>
+      </div>
+      <div class="timeline">
+        <article><span class="date">AUG 2026 – PRESENT</span><h3>NYSC Corps Member · Executive Assistant to the CEO, Highfield Oil Company</h3><p>Coordinates technical workflows, engineering-team communication, integration milestones and executive operations.</p></article>
+        <article><span class="date">AUG 2026 – PRESENT</span><h3>Project Assistant · BON Intelligence</h3><p>Supports project coordination, product-development tracking, stakeholder materials and retail transformation initiatives involving AI analytics.</p></article>
+        <article><span class="date">MAY 2026 – JUL 2026</span><h3>Data Science Intern · Analyst Lab Africa</h3><p>Worked on dataset cleaning and preprocessing, exploratory analysis, basic statistical testing and structured reporting.</p></article>
+        <article><span class="date">MAY 2026 – JUN 2026</span><h3>AI Intern · Decode Labs</h3><p>Researched AI tools and use cases and gained practical exposure to applying AI concepts in workflows.</p></article>
+        <article><span class="date">JAN 2025 – JUL 2026</span><h3>Project Coordinator · Intrasolutions Consultancy Ltd</h3><p>Coordinated operations and communication across Lagos and Istanbul teams, prepared operational reports and supported delivery tracking.</p></article>
+        <article><span class="date">AUG 2024 – OCT 2024</span><h3>Laboratory Intern · Vcare Diagnostic Limited</h3><p>Supported clinical laboratory workflows across biochemistry, haematology, microbiology and serology, including biochemical and haematological assays and laboratory information management.</p></article>
+        <article><span class="date">MAY 2024 – AUG 2024</span><h3>Research and Administrative Support Intern · NNMDA</h3><p>Supported literature review, research documentation, regulatory paperwork and community-programme logistics related to natural medicine research.</p></article>
       </div>
     </section>
 
-    <section class="section about-section" id="about">
-      <div class="about-photo portrait-placeholder">
-        <div class="portrait-monogram">CN</div>
-        <span>PORTRAIT IMAGE</span>
-        <small>Upload a professional photo to replace this placeholder</small>
+    <section class="section" id="education">
+      <div class="section-heading">
+        <p class="eyebrow">05 / EDUCATION & SKILLS</p>
+        <h2>Academic foundation</h2>
       </div>
-      <div class="about-copy">
-        <p class="eyebrow">04 / A LITTLE ABOUT ME</p>
-        <h2>Grounded in<br>biochemistry.<br><em>Curious by nature.</em></h2>
-        <p>I am a First-Class Biochemistry graduate of Caleb University, Nigeria, with a strong interest in research at the intersection of molecular science and computation. My experience spans laboratory practice, research projects, data analysis and academic leadership.</p>
-        <div class="highlight-list">
-          <div><i>✳</i><span>First Class Honours · CGPA 4.94/5.00</span></div>
-          <div><i>✳</i><span>Research interests in glycobiology and computational biology</span></div>
-          <div><i>✳</i><span>GRE 334 · Quantitative and verbal reasoning</span></div>
+      <div class="education-card">
+        <div>
+          <h3>BSc Biochemistry</h3>
+          <p>Caleb University</p>
         </div>
-        <div class="social-pills">
-          <a href="https://www.linkedin.com/in/chika-nwokoro" target="_blank" rel="noopener">LinkedIn ↗</a>
-          <a href="https://github.com/chikanwokoro" target="_blank" rel="noopener">GitHub ↗</a>
-          <a href="https://www.instagram.com/_tech.j/" target="_blank" rel="noopener">Instagram ↗</a>
-        </div>
+        <div class="grade"><strong>4.94/5.00</strong><span>First Class Honours</span></div>
+      </div>
+      <p class="coursework">
+        Relevant coursework: Enzymology, Biochemical Methods and Instrumentation,
+        Statistics and Probability, Bioenergetics, Metabolism of Biomolecules,
+        Pharmaceutical Biochemistry, Immunochemistry, Microbiology, Spectroscopy
+        and Biotechnology and Genetic Engineering.
+      </p>
+      <div class="skills-grid">
+        <div><h3>Laboratory</h3><p>PCR, Western blotting, chromatography, spectrophotometry, ELISA, electrophoresis, DNA extraction and purification.</p></div>
+        <div><h3>Computational</h3><p>SQL, Power BI, Python, molecular docking and post-docking analysis, ADMET profiling, gene ontology and pathway enrichment analysis.</p></div>
+        <div><h3>Research</h3><p>Data analysis, molecular assay design, scientific writing and literature synthesis.</p></div>
       </div>
     </section>
 
-    <section class="section experience-section">
-      <div class="section-top">
-        <div><p class="eyebrow">05 / EXPERIENCE</p><h2>Experience beyond<br><em>the classroom.</em></h2></div>
-        <p class="section-aside">Laboratory, research, data and project experience across academic and professional settings.</p>
-      </div>
-      <div class="experience-list">
-        <article><span>AUG 2026 — PRESENT</span><div><h3>NYSC Corps Member · Executive Assistant to the CEO</h3><p>Highfield Oil Company · Place of Primary Assignment</p></div></article>
-        <article><span>AUG 2026 — PRESENT</span><div><h3>Project Assistant</h3><p>BON Intelligence</p></div></article>
-        <article><span>MAY 2026 — JUL 2026</span><div><h3>Data Science Intern</h3><p>Analyst Lab Africa</p></div></article>
-        <article><span>MAY 2026 — JUN 2026</span><div><h3>AI Intern</h3><p>Decode Labs</p></div></article>
-        <article><span>JAN 2025 — JUL 2026</span><div><h3>Project Coordinator</h3><p>Intrasolutions Consultancy Ltd</p></div></article>
-        <article><span>AUG 2024 — OCT 2024</span><div><h3>Laboratory Intern</h3><p>Vcare Diagnostic Limited</p></div></article>
-        <article><span>MAY 2024 — AUG 2024</span><div><h3>Research and Administrative Support Intern</h3><p>NNMDA</p></div></article>
-      </div>
+    <section class="section shaded" id="leadership">
+      <div class="section-heading"><p class="eyebrow">06 / LEADERSHIP & COMMUNITY</p><h2>Leadership, service and engagement</h2></div>
+      <ul class="simple-list">
+        <li><strong>Founder & President, Scientific Minds of Africa (SCIMA).</strong></li>
+        <li><strong>Treasurer, Angelique Support Group.</strong></li>
+        <li><strong>Rotary Youth Leadership Academy (RYLA).</strong> Member.</li>
+        <li><strong>NYSC Writers Club.</strong> Member.</li>
+      </ul>
+      <h3 class="subsection-title">Professional affiliations</h3>
+      <ul class="simple-list"><li>Member, Biotechnology Society of Nigeria.</li><li>Member, Nigerian Society of Biochemistry and Molecular Biology (NSBMB).</li></ul>
+      <h3 class="subsection-title">Awards & recognition</h3>
+      <ul class="simple-list"><li>Female Scientist of the Year, 2024.</li><li>Dean’s Recommendation, 2025.</li><li>First Class Honours, BSc Biochemistry, Caleb University.</li><li>Academic Excellence Award, Caleb University, 2026.</li></ul>
     </section>
+    <section class="section" id="training"><div class="section-heading"><p class="eyebrow">07 / PROFESSIONAL DEVELOPMENT</p><h2>Certifications, training and professional development</h2></div>
+      <ul class="simple-list">
+        <li><strong>Young Researchers Forum of Nigeria:</strong> Certificate of Participation, “Winning with Computational Chemistry: From Research Design to Publication” (2025).</li>
+        <li><strong>Creation-1 Sustainable Value Chain:</strong> “Waste to Valuable Products” (2026).</li>
+        <li><strong>HNG-UNESCO ICBN:</strong> Admission to Scientific Research Skills Online Internship. Admission only, not represented as completion.</li>
+        <li><strong>Nigerian Youth Academy (NIYA):</strong> Certificate of Completion, “Presenting with Impact”.</li>
+        <li><strong>TS Academy:</strong> Data Analytics Scholarship (2026); AI & Automation Scholarship (in progress).</li>
+      </ul></section>
+    <section class="section shaded" id="selected-work"><div class="section-heading"><p class="eyebrow">08 / SELECTED WORK</p><h2>Research publications and review</h2><p class="section-intro">The original publication PDFs were not present in the accessible uploads when this ZIP was prepared. The cards are listed accurately but are not linked to unrelated files.</p></div>
+      <div class="research-grid">
+        <article class="research-card compact"><span class="tag">RESEARCH PUBLICATION · PDF TO ADD</span><h3>Bridging Static Docking and Dynamic Enzyme Kinetics: A Tensor-Based Hybrid Model for Predicting Drug–Enzyme Interactions</h3></article>
+        <article class="research-card compact"><span class="tag">RESEARCH PUBLICATION · PDF TO ADD</span><h3>In Silico Network Pharmacology and Computational Modelling of Bioactive Compounds From <em>Allium cepa</em> Targeting Downstream Protein Effectors in Diabetes</h3></article>
+        <article class="research-card compact"><span class="tag">REVIEW · PDF TO ADD</span><h3>Algal Synthesis of Metal-Based Nanoparticles for Corrosion Protection and Adsorption: A Review</h3></article>
+      </div></section>
+    
 
-    <section class="section recognition-section">
-      <div class="section-top">
-        <div><p class="eyebrow">06 / LEADERSHIP & RECOGNITION</p><h2>Service, initiative<br>& <em>achievement.</em></h2></div>
-      </div>
-      <div class="recognition-grid">
-        <div><span>01</span><p><b>Founder & President, Scientific Minds of Africa (SCIMA)</b><br>Leads a 10-member team, outreach programmes and university partnerships.</p></div>
-        <div><span>02</span><p><b>General Secretary & Treasurer, Angelique Family Foundation</b><br>Supports budgeting, financial reporting and outreach activities.</p></div>
-        <div><span>03</span><p><b>Team Lead, Rotary Youth Leadership Academy 2025</b><br>Ranked 2nd of 375 participants.</p></div>
-        <div><span>04</span><p><b>Female Scientist of the Year (2024)</b><br>College of Pure and Applied Science, Caleb University.</p></div>
-        <div><span>05</span><p><b>Academic Excellence Award (2026)</b><br>Caleb University recognition of First-Class achievement at the 15th Convocation Ceremony.</p></div>
-        <div><span>06</span><p><b>Dean’s Recommendation (2025)</b><br>Recognition for academic excellence and research commitment.</p></div>
-      </div>
-    </section>
-
-    <section class="contact-section" id="contact">
-      <div class="contact-inner">
-        <p class="eyebrow light">07 / CONTACT</p>
-        <h2>Let’s connect<br><em>and exchange ideas.</em></h2>
-        <p>For research conversations, academic opportunities and professional enquiries.</p>
-        <a class="email-link" href="mailto:chikanwokoro2@gmail.com">chikanwokoro2@gmail.com ↗</a>
-        <div class="contact-bottom">
-          <div class="contact-socials">
-            <a href="https://www.linkedin.com/in/chika-nwokoro" target="_blank" rel="noopener">LinkedIn</a>
-            <a href="https://github.com/chikanwokoro" target="_blank" rel="noopener">GitHub</a>
-            <a href="https://www.instagram.com/_tech.j/" target="_blank" rel="noopener">Instagram</a>
-            <a href="documents/Chika-Nwokoro-Academic-CV-2026.pdf" target="_blank" rel="noopener">Academic CV (PDF)</a>
-          </div>
-          <span>LAGOS, NIGERIA · © 2026 CHIKA NWOKORO</span>
-        </div>
+    <section class="section contact-section" id="contact">
+      <p class="eyebrow">07 / CONTACT</p>
+      <h2>Get in touch</h2>
+      <p>For research, academic and professional enquiries:</p>
+      <a class="contact-email" href="mailto:chikanwokoro2@gmail.com">chikanwokoro2@gmail.com</a>
+      <div class="contact-links">
+        <a href="https://www.linkedin.com/in/chika-nwokoro" target="_blank" rel="noopener">LinkedIn</a>
+        <a href="https://www.instagram.com/_tech.j/" target="_blank" rel="noopener">Instagram</a>
+        <a href="documents/Chika-Nwokoro-Academic-CV-2026.pdf" target="_blank" rel="noopener">Academic CV (PDF)</a>
       </div>
     </section>
   </main>
-  <script src="script.js"></script>
+
+  <footer>
+    <span>© 2026 Chika Nwokoro</span>
+    <span>Academic portfolio</span>
+  </footer>
 </body>
 </html>
