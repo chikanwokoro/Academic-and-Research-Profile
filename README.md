@@ -6,7 +6,7 @@ A responsive, single-page academic portfolio for GitHub Pages. The original inte
 - `index.html` — portfolio content and page structure
 - `style.css` — visual design and responsive layout
 - `script.js` — ID badge flip, intro transition and typewriter animation
-- `images/chika-portrait.jpg` — portrait used only on the introductory ID badge
+- `chika-portrait.jpg` — portrait used only on the introductory ID badge
 - `documents/Chika-Nwokoro-Academic-CV-2026.pdf` — academic CV
 
 ## Publish on GitHub Pages
